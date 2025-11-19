@@ -21,5 +21,6 @@ file data/dataset_download | grep -qi zip && {
   mv data/dataset_download data/UNSW_2018_IoT_Botnet_Final_10_B.csv || true
 }
 
-echo "Download step finished. Files in data/:"
-ls -lah data || true
+echo "Done. Files in data/:"
+ls -lah data
+
