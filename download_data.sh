@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Expects env var DATA_URL (direct link to the CSV zip or CSV file)
-if [ -z "${DATA_URL:https://unsw-my.sharepoint.com/personal/z5131399_ad_unsw_edu_au/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fz5131399%5Fad%5Funsw%5Fedu%5Fau%2FDocuments%2FBot%2DIoT%5FDataset&ga=1}" ]; then
+if [ -z "${DATA_URL:https:https://drive.google.com/file/d/1AOgG9QTXUu1IQ45OGMeSvRa5TgUVDJ-H/view?usp=drive_link" ]; then
   echo "ERROR: DATA_URL not set. Set repo secret DATA_URL to a direct download link."
   exit 2
 fi
