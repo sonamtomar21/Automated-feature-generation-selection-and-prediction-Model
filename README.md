@@ -39,19 +39,5 @@ Pipeline automatically:
 
 
 
-# 📂 Project Structure
-.
-├── app.py # Flask API server
-├── train.py # ML training script
-├── download_data.sh # Downloads dataset using DATA_URL
-├── requirements.txt # Python dependencies
-├── Dockerfile # Production container image
-├── README.md # Documentation
-├── index.html # Simple Web UI
-├── models/ # Generated at runtime (model.joblib)
-├── data/ # Downloaded dataset (auto-generated)
-├── tests/
-│ ├── test_app.py # API tests
-│ └── test_train.py # Data availability tests
-└── .github/workflows/ci.yml # CI pipeline
+
 
