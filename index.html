@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+  <head><meta charset="utf-8"><title>Bot-IoT model</title></head>
+  <body>
+    <h2>Bot-IoT prediction API</h2>
+    <p>POST JSON to <code>/predict</code> with these fields:</p>
+    <pre id="fields"></pre>
+    <script>
+      const features = {{ features|tojson }};
+      document.getElementById('fields').innerText = JSON.stringify(features, null, 2);
+    </script>
+  </body>
+</html>
